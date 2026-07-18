@@ -1,0 +1,34 @@
+{
+  "geode": "4.0.0",
+  "gd": {
+    "win": "2.2074",
+    "android": "2.2074",
+    "mac": "2.2074",
+    "ios": "2.2074"
+  },
+  "id": "chatgpt.custom_mod",
+  "name": "ChatGPT Custom Mod",
+  "version": "1.0.0",
+  "developer": "ChatGPT",
+  "description": "Un mod personalizado de Geode que añade un panel informativo dentro del menú principal de Geometry Dash.",
+  "repository": "https://github.com/example/ChatgptModGeode",
+  "tags": [
+    "interface",
+    "quality-of-life",
+    "example"
+  ],
+  "settings": {
+    "show-welcome-popup": {
+      "type": "bool",
+      "name": "Mostrar bienvenida",
+      "description": "Muestra un mensaje cuando se abre el menú principal.",
+      "default": true
+    },
+    "button-label": {
+      "type": "string",
+      "name": "Texto del botón",
+      "description": "Texto que aparece en el botón del mod.",
+      "default": "ChatGPT Mod"
+    }
+  }
+}
